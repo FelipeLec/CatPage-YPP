@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Cat Demo Website</title>
+    <link rel="icon" type="image/png" sizes="612x612" href="../assets/img/logo.png">
+    <link rel="icon" type="image/png" sizes="612x612" href="../assets/img/logo.png">
+    <link rel="icon" type="image/png" sizes="612x612" href="../assets/img/logo.png">
+    <link rel="icon" type="image/png" sizes="612x612" href="../assets/img/logo.png">
+    <link rel="icon" type="image/png" sizes="612x612" href="../assets/img/logo.png">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+        <div class="container"><a class="navbar-brand" href="../">CATS</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav mr-auto w-100">
+                    <li class="nav-item"><a class="nav-link" href="../AboutCats">About Cats</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../AboutMe">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../WhatIsThis">What is this?</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="main-banner about-cats-page" style="background-image: url(&quot;../assets/img/Main-Banner/1.jpg&quot;);height: 550px;background-position: center;background-size: cover;background-repeat: no-repeat;">
+        <div class="d-flex justify-content-center align-items-center main-banner-div">
+            <div class="d-flex align-items-center order-12 main-heading">
+                <div class="container banner" style="color: var(--main);">
+                    <h1 class="main-heading text-center">About Cats</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container splitter" style="margin-top: -10%;"><img class="spliter-banner" src="../assets/img/Splitters/Untitled-1.png"></div>
+    <div class="section-jump-boxed">
+        <div class="container">
+            <div class="intro"></div>
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fas fa-cat icon"></i>
+                        <h3 class="name">Articles</h3><a class="learn-more" href="#information">Read Them! »</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-volume-up icon"></i>
+                        <h3 id="times-meowed" class="name">Meow</h3><a class="play-sound-button" onclick="playCatSound()">Play It! »</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fas fa-border-all icon"></i>
+                        <h3 class="name">Breeds</h3><a class="learn-more" href="https://allaboutcats.com/cat-breeds" target="blank">Go to All About Cats Website »</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container splitter"><img class="spliter-banner" src="../assets/img/Splitters/3.png"></div>
+    <div id="information">
+        <div class="container video-cont">
+            <div class="row">
+                <div class="col general-flex">
+                    <h2 class="w-100"><strong>Cats Domestication</strong></h2>
+                    <p class="w-100">A documentary by <a href="https://www.youtube.com/channel/UCzR-rom72PHN9Zg7RML9EbA" target="_blank">PBS Eons</a> on YouTube about how, when and where cats were domesticated.</p>
+                </div>
+                <div class="col-md-12 col-lg-6"><iframe width="100%" height="315" src="https://www.youtube.com/embed/CYPJzQppANo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </div>
+        </div>
+        <div class="container article-cont">
+            <div class="row">
+                <div class="col general-flex">
+                    <h2 class="w-100"><strong>Are My Cats Playing Or Fighting?</strong><br></h2>
+                    <p class="w-100">Are you mystified trying to figure out if your cats are playing or fighting during wrestling matches? A cat’s behavior can be hard to interpret, particularly when there is a mix of ages, breeds, temperaments, and unrelated individuals in one household.<br></p><a class="learn-more" href="https://allaboutcats.com/are-my-cats-playing-or-fighting" target="_blank">Read More »</a>
+                </div>
+                <div class="col-md-12 col-lg-6 image-article-cont">
+                    <div class="about-cards-img"><img src="../assets/img/Main-Banner/17.jpg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container article-cont">
+            <div class="row">
+                <div class="col general-flex">
+                    <h2 class="w-100"><strong>What Your Cat’s Tail Can Tell You</strong><br></h2>
+                    <p class="w-100">Tail signals are an important part of your cat’s communication repertoire. This article aims to explain more about cats’ tails and tail movements so that you are better equipped to understand what your cat is saying to you with body language using this complex, subtle and expressive part of their anatomy.&nbsp;<br></p><a class="learn-more" href="https://allaboutcats.com/cat-tail-meanings" target="_blank">Read More »</a>
+                </div>
+                <div class="col-md-12 col-lg-6 image-article-cont">
+                    <div class="about-cards-img"><img src="../assets/img/Main-Banner/10.jpg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container article-cont">
+            <div class="row">
+                <div class="col general-flex">
+                    <h2 class="w-100"><strong>What Does Catnip Do To Cats &amp; Why Cats Like it</strong><br></h2>
+                    <p class="w-100">As the only recreational drug for cats, catnip (nepeta cataria) is a uniquely stimulating plant that’s almost as puzzling as cats themselves. Between 67% and 80% of the adult feline population is sensitive to catnip. Sensitive cats react to catnip by going a bit crazy—rolling around on the floor, licking up as much ‘nip as they can and rubbing their heads.<br></p><a class="learn-more" href="https://allaboutcats.com/catnip" target="_blank">Read More »</a>
+                </div>
+                <div class="col-md-12 col-lg-6 image-article-cont">
+                    <div class="about-cards-img"><img src="../assets/img/Main-Banner/3.jpg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-clean">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-6 col-md-2 col-lg-2 item">
+                    <h3>What is this?</h3>
+                    <ul>
+                        <li><a href="../WhatIsThis">YPP Course</a></li>
+                        <li><a href="../AboutMe/#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-2 col-lg-2 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="../AboutCats">About Cats</a></li>
+                        <li><a href="../AboutMe">About Me</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-8 col-lg-8 col-xl-8 item social"><a href="https://github.com/FelipeLec/" target="_blank"><i class="fa fa-github"></i></a><a href="https://twitter.com/FelipeLecot_II" target="_blank"><i class="fa fa-twitter"></i></a><a href="https://www.instagram.com/felipelecot/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <p class="copyright">Felipe Lecot for JA YPP Course © All Rights Reserved 2021</p>
+                    <p class="copyright">This is a demo website: Developed by Felipe Lecot&nbsp;@ <a href="https://do2indie.com" target="_blank">Do2</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section>
+        <div class="alert text-center cookiealert" role="alert">
+            <p>This is just a demo website, if you want to understand this, please go to this <a class="color-background text-underline" href="../WhatIsThis">Link</a>.</p><button class="btn btn-primary btn btn-primary btn-sm acceptcookies" type="button" aria-label="Close">I understand</button>
+        </div>
+    </section>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+</body>
+
+</html>
